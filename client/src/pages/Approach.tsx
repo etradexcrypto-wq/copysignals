@@ -153,7 +153,7 @@ export default function Approach() {
               A better relationship<br />
               <em style={{ fontStyle: "italic", color: "#94a3b8" }}>with your money.</em>
             </h2>
-            <a className="button button-dark" href="https://app.quantivesthq.org" style={{ 
+            <a className="button button-dark" href="https://app.copysignals.online" style={{ 
               display: "inline-flex", 
               alignItems: "center", 
               gap: "0.5rem", 

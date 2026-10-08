@@ -22,13 +22,13 @@ export default function ScrollReveal() {
         node.style.setProperty("--animate-duration", "650ms");
         observer.observe(node);
       });
-      (window as Window & { __quantivesthqRevealObserver?: IntersectionObserver }).__quantivesthqRevealObserver = observer;
+      (window as Window & { __copysignalsRevealObserver?: IntersectionObserver }).__copysignalsRevealObserver = observer;
     });
     return () => {
       window.cancelAnimationFrame(frame);
-      const target = window as Window & { __quantivesthqRevealObserver?: IntersectionObserver };
-      target.__quantivesthqRevealObserver?.disconnect();
-      delete target.__quantivesthqRevealObserver;
+      const target = window as Window & { __copysignalsRevealObserver?: IntersectionObserver };
+      target.__copysignalsRevealObserver?.disconnect();
+      delete target.__copysignalsRevealObserver;
     };
   }, [location]);
   return null;
